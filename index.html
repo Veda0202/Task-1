@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="logo">🌐 <span>BlueWave</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Transform Your Ideas into <span>Reality</span></h1>
+      <p>We combine creativity and technology to build stunning web experiences that inspire and engage.</p>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES SECTION ===== -->
+  <section class="features">
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/753/753318.png" alt="Design">
+      <h3>Creative Design</h3>
+      <p>Modern, user-friendly designs that make your brand stand out from the crowd.</p>
+    </div>
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/2103/2103658.png" alt="Code">
+      <h3>Clean Code</h3>
+      <p>Our code is efficient, responsive, and built with performance in mind.</p>
+    </div>
+    <div class="feature">
+      <img src="https://cdn-icons-png.flaticon.com/512/2659/2659360.png" alt="Support">
+      <h3>24/7 Support</h3>
+      <p>We’re always here to help you keep your projects running smoothly.</p>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2025 BlueWave. Crafted with 💙 by your creative team.</p>
+    <div class="social-links">
+      <a href="#">🌍 Facebook</a> |
+      <a href="#">🐦 Twitter</a> |
+      <a href="#">📸 Instagram</a>
+    </div>
+  </footer>
+
+  <script>
+    // Toggle menu for small screens
+    const toggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>

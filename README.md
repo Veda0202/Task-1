@@ -22,17 +22,5 @@ CSS3 (Flexbox, Grid, Media Queries)
 VS Code + Live Server
 
 
-🖥️ How to Run
-
-1. Clone this repository
-
-git clone https://github.com/Veda0202/landing-page.git
-cd landing-page
-
-
-2. Open index.html in VS Code
-
-
-3. Right-click → Open with Live Server
 
 
